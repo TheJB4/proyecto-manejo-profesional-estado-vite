@@ -1,0 +1,44 @@
+.Payment {
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 2rem;
+  grid-row-gap: 1.5em;
+  display: grid;
+}
+.Payment-back {
+  margin: 10px 0 0 0;
+}
+.Payment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Payment-item .fas {
+  margin: 0 0 0 10px;
+  color: rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+.Payment-item button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.Payment-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+.Payment-element h4 {
+  margin: 0;
+}
+
+.Payment-button{
+  cursor: pointer;
+  border: solid 1px black;
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
